@@ -1,7 +1,7 @@
 from test import test
 
 
-print_fails = False
+print_fails = True
 
 # Tests whether the engine finds a short enough mate within the time limit
 def mate_test(testfile, length, limit_in_ms):
